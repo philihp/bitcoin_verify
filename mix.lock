@@ -1,0 +1,8 @@
+%{
+  "binary": {:hex, :binary, "0.0.4", "dd077db70c0ded3e85c132b802338e14b80694684a7e2277666bfa4004b7fa66", [:mix], [], "hexpm", "a2faf5d5c22caec3efacf95370d8b050c003f48e03c221c37e0d1e2dd515b970"},
+  "bitcoin": {:hex, :bitcoin, "0.0.2", "4a0f6185c68c51c2c3e9bf712b4e29b9b2814727177e10670815b6db872b6b9e", [:mix], [{:binary, "0.0.4", [hex: :binary, repo: "hexpm", optional: false]}, {:reagent, "~> 0.1.5", [hex: :reagent, repo: "hexpm", optional: false]}], "hexpm", "a4f22e7ff0da6446c5dc01d608b3e2ffad7e568ae045942d0b684b455a92d87e"},
+  "datastructures": {:hex, :datastructures, "0.2.8", "cd9f53bed18f1d9526689a9559676c682b5a3ba230c1e3de187182f4ff86899c", [:mix], [], "hexpm", "fc351f7ac756383a5179b87fb16fb143be79235b7942dee97cf0315e8ace45fe"},
+  "exts": {:hex, :exts, "0.3.4", "ec2af096ab4494c087a9615fffe9d5ba8a0fa0ccc465b340ee522ed7aff79078", [:mix], [{:datastructures, "~> 0.2", [hex: :datastructures, repo: "hexpm", optional: false]}], "hexpm", "ac30c04a94052e9eea11509778688772ffc2412d61c4d03e60fab80469be406e"},
+  "reagent": {:hex, :reagent, "0.1.14", "f6eaa35266091a41c93ae18b510472fa7c931c1f67a030d213ab0206ace843e1", [:mix], [{:exts, "~> 0.3", [hex: :exts, repo: "hexpm", optional: false]}, {:socket, "~> 0.3", [hex: :socket, repo: "hexpm", optional: false]}], "hexpm", "6d40dc48c6068f81aee3f6d461d6139942b22e407cdd854bb4a71972e02b121d"},
+  "socket": {:hex, :socket, "0.3.13", "98a2ab20ce17f95fb512c5cadddba32b57273e0d2dba2d2e5f976c5969d0c632", [:mix], [], "hexpm", "f82ea9833ef49dde272e6568ab8aac657a636acb4cf44a7de8a935acb8957c2e"},
+}
